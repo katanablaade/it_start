@@ -1,0 +1,55 @@
+.seminars-table {
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  margin-top: 48px;
+}
+.seminars-table__header {
+  background: rgba(255, 255, 255, 0.04);
+  display: flex;
+  align-items: center;
+}
+
+.seminars-table__header-number,
+.seminars-table__header-title,
+.seminars-table__header-time {
+  color: rgba(255, 255, 255, 0.3);
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 15px;
+  text-transform: uppercase;
+}
+.seminars-table__header-number {
+  padding: 8.5px 19.5px;
+}
+.seminars-table__header-title {
+  padding: 8.5px 0 8.5px 12px;
+  width: 76%;
+}
+.seminars-table__header-time {
+  padding-left: 20px;
+  padding-right: 67px;
+  white-space: nowrap;
+}
+
+@media (max-width: 500px) {
+  .seminars-table {
+    margin-top: 24px;
+  }
+  .seminars-table__header-time {
+    padding-right: 14.5px;
+    font-size: 8px;
+    line-height: 10px;
+  }
+  .seminars-table__header-number {
+    padding: 6.5px 14px;
+  }
+  .seminars-table__header-number {
+    font-size: 9px;
+  }
+  .seminars-table__header-title {
+    padding: 9.5px 0 11.5px 15px;
+    font-size: 8px;
+    line-height: 10px;
+  }
+}

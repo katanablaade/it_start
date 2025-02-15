@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  font-family: Inter;
+  margin: 0;
+  padding: 0;
+}
+:root {
+  background: rgb(55, 62, 69);
+}
+.app {
+  max-width: 1600px;
+  width: 100%;
+  margin: 81px auto 66px auto;
+  padding: 0 15px;
+}
+
+@media (max-width: 850px) {
+  .app {
+    max-width: 705px;
+  }
+}
+
+@media (max-width: 500px) {
+  .app {
+    margin: 56px auto;
+    max-width: 322px;
+    padding: 0;
+  }
+}

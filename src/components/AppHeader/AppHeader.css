@@ -1,0 +1,30 @@
+.app-header__title {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+}
+
+.app-header__text {
+  margin-top: 8px;
+  color: rgba(255, 255, 255, 0.3);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+}
+
+@media (max-width: 500px) {
+  .app-header__title {
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: -0.4px;
+  }
+  .app-header__text {
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0;
+  }
+}

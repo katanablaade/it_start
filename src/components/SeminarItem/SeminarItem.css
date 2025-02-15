@@ -1,0 +1,127 @@
+.seminars-list_put-btn,
+.seminars-list_delete-btn {
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 0 20px;
+  margin-right: 10px;
+  outline: none;
+  border: 1px solid black;
+  border-radius: 4px;
+  height: 32px;
+  line-height: 32px;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  cursor: pointer;
+  user-select: none;
+  appearance: none;
+  touch-action: manipulation;
+  vertical-align: top;
+}
+
+.seminars-list__item {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.seminars-list__item:last-child {
+  border-bottom: 0;
+}
+
+.seminars-list__item-number {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  padding: 20px 12px;
+  width: 47px;
+  text-align: center;
+}
+.seminars-list__item-img {
+  margin-left: 9px;
+  width: 40px;
+  height: 40px;
+}
+.seminars-list__item-info {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.seminars-list__item-title {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+}
+.seminars-list__item-description {
+  color: rgba(255, 255, 255, 0.4);
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 15px;
+}
+.seminars-list__item-time {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  padding-left: 12px;
+  padding-right: 43px;
+}
+.seminars-list__item-wrapper {
+  margin-left: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 850px) {
+  .seminars-list__item-img {
+    margin-left: 14px;
+  }
+}
+
+@media (max-width: 500px) {
+  .seminars-list__item-time {
+    padding-right: 40px;
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .seminars-list__item {
+    padding: 0;
+  }
+  .seminars-list__item-title {
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .seminars-list__item-number {
+    padding: 12px 8px;
+    width: 44px;
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .seminars-list__item-wrapper {
+    margin-left: 10px;
+  }
+  .seminars-list__item-description {
+    margin-top: 4px;
+    font-size: 10px;
+    line-height: 12px;
+  }
+  .seminars-list__item-info {
+    margin-top: 12px;
+    margin-bottom: 12px;
+  }
+  .seminars-list__item-img {
+    margin-left: 9px;
+    width: 28px;
+    height: 28px;
+  }
+}
