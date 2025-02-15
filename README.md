@@ -9,7 +9,7 @@ npm install
 ### Start json-server
 
 ```
-npm run start-server for
+npm run start-server
 ```
 
 ### Start project
